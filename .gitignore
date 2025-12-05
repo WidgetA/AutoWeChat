@@ -1,0 +1,15 @@
+# 忽略 Python 编译缓存
+__pycache__/
+*.py[cod]
+
+# 忽略生成的结果目录 (你不想把每次生成的图片都传上去)
+output/
+logos/
+assets/__pycache__
+
+# 忽略系统文件
+.DS_Store
+
+# 忽略环境配置 (如果有)
+.env
+venv/
